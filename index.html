@@ -1,0 +1,275 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link type="text/css" rel="stylesheet" href="setup.css" />
+    <link type="text/css" rel="stylesheet" href="index.css" />
+  </head>
+  <body class="poppins-light">
+    <!-- Header -->
+    <header
+      class="bg-blue-900 text-white p-4 flex justify-between items-center"
+    >
+      <div class="flex items-center">
+        <img alt="Milkawa Cafe Logo" class="h-10" src="./imgs/image 4.png" />
+      </div>
+      <nav class="flex space-x-4 font-semibold">
+        <a class="hover:underline" href="#"> VỀ MILKAWA </a>
+        <a class="hover:underline" href="#"> MENU </a>
+        <a class="hover:underline" href="#"> KHUYẾN MÃI </a>
+        <a class="hover:underline" href="#"> TÌM KIẾM </a>
+        <a class="hover:underline" href="#">
+          <img class="w-6 h-6" src="./svg/cart.svg" />
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main Banner -->
+    <section class="flex">
+      <div class="relative w-full h-[700px]">
+        <img class="absoluteImgBg object-top" src="./imgs/banner.png" />
+      </div>
+    </section>
+
+    <!-- Search Bar -->
+    <div class="flex justify-center my-20">
+      <div
+        class="flex items-center justify-center rounded-md overflow-hidden w-1/2 min-h-16 px-4 gap-2 bg-[#003471]"
+      >
+        <input
+          class="w-full p-2 bg-transparent text-white"
+          placeholder="Search..."
+          type="text"
+        />
+        <button class="w-10 h-9">
+          <img class="w-full h-full" src="./svg/search.svg" />
+        </button>
+      </div>
+    </div>
+
+    <!-- New Menu Section -->
+    <section class="text-center my-8">
+      <h2 class="text-[88px] font-bold">
+        New
+        <span class="text-red-600"> menu </span>
+      </h2>
+      <div
+        class="flex justify-center items-center gap-8 space-x-4 mt-4 overflow-hidden"
+      >
+        <img
+          alt="Melange Drink"
+          class="flex-1 max-w-[400px] min-h-[570px]"
+          src="./imgs/menu1.jfif"
+        />
+        <img
+          alt="Autumn Drink"
+          class="flex-1 max-w-[400px] min-h-[570px]"
+          src="./imgs/menu2.jfif"
+        />
+        <img
+          alt="Almond Melange Drink"
+          class="flex-1 max-w-[400px] min-h-[570px]"
+          src="./imgs/menu3.jfif"
+        />
+        <img
+          alt="Joyful Days Drink"
+          class="flex-1 max-w-[400px] min-h-[570px]"
+          src="./imgs/menu4.jfif"
+        />
+      </div>
+      <div class="flex justify-center space-x-4 mt-16 mb-20">
+        <button
+          class="flex items-center justify-center p-2 w-14 h-14 bg-gray-200 rounded-full"
+        >
+          <img class="w-7 h-7" src="./svg/arrow-left.svg" />
+        </button>
+        <button
+          class="flex items-center justify-center p-2 w-14 h-14 bg-gray-200 rounded-full"
+        >
+          <img class="w-7 h-7" src="./svg/arrow-right.svg" />
+        </button>
+      </div>
+    </section>
+
+    <!-- Description -->
+    <section
+      class="text-center font-inter leading-[65px] tracking-[-1.1%] text-[36px] font-semibold my-8 px-4"
+    >
+      <p>
+        Trải qua hơn 50 năm chắt chiu tinh hoa từ những hạt cà phê thượng hạng
+        cùng mong muốn mang lại cho khách hàng những trải nghiệm giá trị nhất
+        khi thưởng thức.
+      </p>
+    </section>
+
+    <!-- Best Selling Products -->
+    <section class="my-20 flex items-center justify-center w-full">
+      <div class="w-full max-w-[1154px]">
+        <h2
+          class="text-[48px] tracking-[-1.9%] leading-[72px] font-roboto font-bold"
+        >
+          Sản phẩm bán chạy
+        </h2>
+        <div
+          class="grid grid-cols-3 gap-16 mt-8 font-inter font-bold text-[24px]"
+        >
+          <div class="border rounded-lg min-h-[416px] overflow-hidden">
+            <div class="w-full aspect-square overflow-hidden">
+              <img class="w-full h-full object-cover" src="./imgs/cof1.jpeg" />
+            </div>
+            <div class="w-full p-4">
+              <h3 class="mt-2">Capuchino</h3>
+              <div class="w-full flex items-center justify-between">
+                <p>$25</p>
+                <button class="mt-2 p-2 bg-[#DF1D1D] text-white rounded-md">
+                  <img class="w-6 h-6" src="./svg/cart.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="border rounded-lg min-h-[416px] overflow-hidden">
+            <div class="w-full aspect-square overflow-hidden">
+              <img class="w-full h-full object-cover" src="./imgs/cof2.webp" />
+            </div>
+            <div class="w-full p-4">
+              <h3 class="mt-2">Cafe latte</h3>
+              <div class="w-full flex items-center justify-between">
+                <p>$25</p>
+                <button class="mt-2 p-2 bg-[#DF1D1D] text-white rounded-md">
+                  <img class="w-6 h-6" src="./svg/cart.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="border rounded-lg min-h-[416px] overflow-hidden">
+            <div class="w-full aspect-square overflow-hidden">
+              <img class="w-full h-full object-cover" src="./imgs/cof3.webp" />
+            </div>
+            <div class="w-full p-4">
+              <h3 class="mt-2">Macchiato</h3>
+              <div class="w-full flex items-center justify-between">
+                <p>$25</p>
+                <button class="mt-2 p-2 bg-[#DF1D1D] text-white rounded-md">
+                  <img class="w-6 h-6" src="./svg/cart.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="border rounded-lg min-h-[416px] overflow-hidden">
+            <div class="w-full aspect-square overflow-hidden">
+              <img class="w-full h-full object-cover" src="./imgs/cof4.webp" />
+            </div>
+            <div class="w-full p-4">
+              <h3 class="mt-2">Cappuchino Chiller</h3>
+              <div class="w-full flex items-center justify-between">
+                <p>$25</p>
+                <button class="mt-2 p-2 bg-[#DF1D1D] text-white rounded-md">
+                  <img class="w-6 h-6" src="./svg/cart.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="border rounded-lg min-h-[416px] overflow-hidden">
+            <div class="w-full aspect-square overflow-hidden">
+              <img class="w-full h-full object-cover" src="./imgs/cof5.webp" />
+            </div>
+            <div class="w-full p-4">
+              <h3 class="mt-2">Matcha đậu đỏ</h3>
+              <div class="w-full flex items-center justify-between">
+                <p>$25</p>
+                <button class="mt-2 p-2 bg-[#DF1D1D] text-white rounded-md">
+                  <img class="w-6 h-6" src="./svg/cart.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="border rounded-lg min-h-[416px] overflow-hidden">
+            <div class="w-full aspect-square overflow-hidden">
+              <img class="w-full h-full object-cover" src="./imgs/cof6.webp" />
+            </div>
+            <div class="w-full p-4">
+              <h3 class="mt-2">Chocolate Chiller</h3>
+              <div class="w-full flex items-center justify-between">
+                <p>$25</p>
+                <button class="mt-2 p-2 bg-[#DF1D1D] text-white rounded-md">
+                  <img class="w-6 h-6" src="./svg/cart.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full">
+      <div class="flex items-center justify-center w-full">
+        <div class="relative w-[313px] h-[126px]">
+          <img class="absoluteImgBg" src="./imgs/image 5.png" />
+        </div>
+      </div>
+
+      <div
+        class="bg-[#252525] text-xl text-white font-inter min-h-[233px] px-16 mx-auto flex items-center justify-center w-full"
+      >
+        <div class="w-full flex items-center justify-center">
+          <!-- Left item -->
+          <div class="flex-1 flex items-center gap-8">
+            <div class="flex items-center gap-4">
+              <div class="w-4 h-4">
+                <img class="w-full h-full" src="./svg/location.svg" />
+              </div>
+              <div>79 Hồ Tùng Mậu</div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-4 h-4">
+                <img class="w-full h-full" src="./svg/phone.svg" />
+              </div>
+              <div>123-456-7890</div>
+            </div>
+          </div>
+
+          <!-- Right item -->
+          <div class="flex-1 flex items-center gap-8">
+            <div class="flex items-center gap-4">
+              <div class="w-4 h-4">
+                <img class="w-full h-full" src="./svg/email.svg" />
+              </div>
+              <div>milkawa@gmail.com</div>
+            </div>
+
+            <div
+              class="h-[44px] flex items-center justify-center border-y border-l border-white rounded-[4px]"
+            >
+              <input
+                class="w-full px-4 bg-transparent font-poppins poppins-regular"
+                placeholder="Enter your email"
+              />
+              <button
+                class="bg-[#DF1D1D] rounded-md min-w-11 h-[calc(100%+2px)] flex items-center justify-center aspect-square"
+              >
+                <img
+                  class="w-full h-full max-w-4 aspect-square"
+                  src="./svg/arrow-footer.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-6 w-full items-center justify-center">
+        <div class="flex items-center justify-center gap-2 text-[#c2c2c2]">
+          <div class="w-5 h-5 flex items-center justify-center">
+            <img class="w-full h-full" src="./svg/icon-copyright.svg" />
+          </div>
+          <p>Copyright Rimel 2024 All right reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
