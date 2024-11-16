@@ -38,47 +38,52 @@
     <!-- Search Bar -->
     <div class="flex justify-center my-20">
       <div
-        class="flex items-center justify-center rounded-md overflow-hidden w-1/2 min-h-16 px-4 gap-2 bg-[#003471]"
+        class="flex items-center justify-center rounded-md overflow-hidden w-1/2 h-[51px] px-4 gap-8"
       >
-        <input
-          class="w-full p-2 bg-transparent text-white"
-          placeholder="Search..."
-          type="text"
-        />
-        <button class="w-10 h-9">
-          <img class="w-full h-full" src="./svg/search.svg" />
+        <div
+          class="w-full h-full flex items-center px-[12px] py-2 gap-1 border border-[#E0E2E7] bg-white rounded-lg"
+        >
+          <div class="w-6 h-6 flex items-center justify-center">
+            <img class="w-full h-full aspect-square" src="./svg/search.svg" />
+          </div>
+          <input
+            class="flex-1 p-2 bg-transparent"
+            placeholder="Nhập tìm kiếm"
+            type="text"
+          />
+        </div>
+
+        <button
+          class="bg-[#003471] rounded-lg px-[14px] py-[10px] min-w-32 h-full text-white font-inter font-semibold text-[20px] leading-[20px] tracking-[0.5%]"
+        >
+          Tìm kiếm
         </button>
       </div>
     </div>
 
     <!-- New Menu Section -->
-    <section class="text-center my-8">
+    <section class="text-center my-8 w-full block">
       <h2 class="text-[88px] font-bold">
         New
         <span class="text-red-600"> menu </span>
       </h2>
       <div
-        class="flex justify-center items-center gap-8 space-x-4 mt-4 overflow-hidden"
+        class="container mx-auto w-full grid grid-cols-3 place-items-center gap-8 space-x-4 mt-4 overflow-hidden"
       >
         <img
           alt="Melange Drink"
-          class="flex-1 max-w-[400px] min-h-[570px]"
+          class="flex-1 max-w-[400px] w-full min-h-[570px]"
           src="./imgs/menu1.jfif"
         />
         <img
           alt="Autumn Drink"
-          class="flex-1 max-w-[400px] min-h-[570px]"
+          class="flex-1 max-w-[400px] w-full min-h-[570px]"
           src="./imgs/menu2.jfif"
         />
         <img
           alt="Almond Melange Drink"
-          class="flex-1 max-w-[400px] min-h-[570px]"
+          class="flex-1 max-w-[400px] w-full min-h-[570px]"
           src="./imgs/menu3.jfif"
-        />
-        <img
-          alt="Joyful Days Drink"
-          class="flex-1 max-w-[400px] min-h-[570px]"
-          src="./imgs/menu4.jfif"
         />
       </div>
       <div class="flex justify-center space-x-4 mt-16 mb-20">
@@ -98,12 +103,10 @@
     <!-- Description -->
     <section
       class="text-center font-inter leading-[65px] tracking-[-1.1%] text-[36px] font-semibold my-8 px-4"
-      style="color: #0000ff; width: fit-content;"
     >
       <p class="text-[#737373]">
-        Trải qua hơn 50 năm chắt chiu tinh hoa từ những hạt cà phê thượng hạng
-        cùng mong muốn mang lại cho khách hàng những trải nghiệm giá trị nhất
-        khi thưởng thức.
+        Trải qu a hơn 50 năm chắt chiu tinh hoa từ những hạt cà phê thượng hạng cùng mong muốn mang lại
+        cho khách hàng những trải nghiệm giá trị nhất khi thưởng thức.
       </p>
     </section>
 
